@@ -1,0 +1,58 @@
+.icon-container {
+  padding: 0 2rem;
+}
+
+.icon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-container2 {
+  padding: 0 8rem;
+  margin: 5rem;
+}
+
+.icon-container2 h2 {
+  padding: 2rem 3rem;
+  color: #000000;
+  font-weight: 400;
+}
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon-list img {
+  padding: 1rem;
+}
+
+@media (max-width: 786px) {
+  .icon-list img {
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+  }
+  .icon-container {
+    padding: 5px !important;
+    margin-top: -25px;
+  }
+  .icon-container2 {
+    padding: 0 3rem;
+    margin: 2rem;
+  }
+  .icon-container2 h2 {
+    padding: 0.5rem;
+    font-size: 10px !important;
+    font-weight: 200;
+  }
+  .icon-list {
+    gap: 10px;
+  }
+  .icon-header p{
+    font-size: 5px !important;
+  }
+}

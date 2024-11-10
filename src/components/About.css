@@ -1,0 +1,44 @@
+.about p {
+  font-size: 4.8rem;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 5rem 2rem;
+}
+
+.description {
+  text-indent: 30rem;
+  padding: 2rem;
+}
+
+.description::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fe6931;
+  margin-left: 5px;
+  border-radius: 0;
+}
+
+@media (max-width: 786px) {
+  .about-header {
+    padding: 1rem;
+    font-size: 5px;
+  }
+  .description {
+    text-indent: 11rem;
+    padding: 5px;
+  }
+  .description {
+    font-size: 20px !important;
+  }
+  .description::after {
+    width: 5px;
+    height: 5px;
+  }
+}

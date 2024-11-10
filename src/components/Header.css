@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  list-style: none;
+  margin-top: -12rem;
+  padding-right: 10rem;
+}
+
+.header li {
+  font-size: 20px;
+}
+
+.header li:hover {
+  color: #fe6931;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.text1 {
+  font-size: 12rem;
+  font-weight: 400;
+  padding-right: 2rem;
+}
+
+.text2 {
+  font-size: 12rem;
+  font-weight: 400;
+  margin-top: -5rem;
+}
+
+.text2-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.agency-info p {
+  font-size: 18px;
+}
+
+.works {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.contact i {
+  transform: rotate(45deg);
+}
+
+.contact:hover i {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width:786px){
+  .header li {
+    font-size: 8px;
+  }
+  .text1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding-right: 2rem;
+  }
+  
+  .text2 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: -1rem;
+  }
+  p {
+    font-size: 8px !important;
+  }
+  .header {
+    list-style: none;
+    margin-top: -15px;
+    padding: 0 10px;
+    margin-top: -50px;
+  }
+  .text2-group {
+    gap: 1rem;
+  }
+  .works{
+    padding: 10px 10px;
+  }
+  .navbar{
+    margin-bottom: -4rem !important;
+  }
+  .footer h1{
+    font-size: 25px;
+  }
+  .footer-menu li{
+    font-size: 8px;
+  }
+  .footer{
+    padding: 1rem;
+  }
+}

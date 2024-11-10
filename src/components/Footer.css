@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.footer h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.footer h1::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #fe6931;
+  margin-left: 5px;
+  border-radius: 0;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.footer-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width:786px){
+  .footer h1::after {
+    width: 5px;
+    height: 5px;
+  }
+}
